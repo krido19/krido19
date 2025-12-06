@@ -40,9 +40,12 @@ Welcome to my GitHub profile! I'm a developer passionate about building useful a
 
 <div align="center">
 
-[![Krido's GitHub Stats](https://github-readme-stats.vercel.app/api?username=krido19&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+[![Krido's GitHub Streak](https://streak-stats.demolab.com?user=krido19&theme=radical)](https://git.io/streak-stats)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=krido19&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+[![Trophies](https://github-profile-trophy.vercel.app/?username=krido19&theme=radical&no-frame=true&no-bg=true&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
+
+<!-- Note: Top Langs is currently commented out as the service is experiencing downtime. You can uncomment it later when it's back up. -->
+<!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=krido19&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats) -->
 
 </div>
 
