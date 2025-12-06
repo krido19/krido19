@@ -36,6 +36,12 @@ Welcome to my GitHub profile! I'm a developer passionate about building useful a
   </a>
 </p>
 
+## 🐍 Contribution Snake
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/krido19/krido19/output/github-contribution-grid-snake.svg" alt="snake animation" />
+</div>
+
 ## 📊 GitHub Stats
 
 <div align="center">
