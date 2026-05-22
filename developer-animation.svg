@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="400">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#001d3d"/>
+      <stop offset="50%" stop-color="#0077b6"/>
+      <stop offset="100%" stop-color="#90e0ef"/>
+    </linearGradient>
+    <linearGradient id="grassGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2d6a4f"/>
+      <stop offset="100%" stop-color="#1b4332"/>
+    </linearGradient>
+    <radialGradient id="sunGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffb703"/>
+      <stop offset="50%" stop-color="#fb8500"/>
+      <stop offset="100%" stop-color="#fb8500" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ponyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff99c8"/>
+      <stop offset="100%" stop-color="#c9184a"/>
+    </linearGradient>
+    <linearGradient id="metalGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e5e5e5"/>
+      <stop offset="50%" stop-color="#9ca3af"/>
+      <stop offset="100%" stop-color="#4b5563"/>
+    </linearGradient>
+
+    <!-- Drop Shadow Filter -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="4" flood-color="black" flood-opacity="0.5"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <style>
+      @keyframes shake {
+        0%, 18% { transform: translate(0, 0); }
+        19% { transform: translate(-15px, 15px) rotate(-2deg); }
+        20% { transform: translate(15px, -15px) rotate(2deg); }
+        21% { transform: translate(-10px, -5px) rotate(-1deg); }
+        22% { transform: translate(5px, 5px) rotate(1deg); }
+        23%, 100% { transform: translate(0, 0); }
+      }
+      @keyframes sun-pulse {
+        0%, 100% { transform: scale(1); opacity: 0.8; }
+        50% { transform: scale(1.1); opacity: 1; }
+      }
+      @keyframes cloud1 { 0% { transform: translateX(-200px); } 100% { transform: translateX(900px); } }
+      @keyframes cloud2 { 0% { transform: translateX(900px); } 100% { transform: translateX(-200px); } }
+      
+      @keyframes hit {
+        0%, 10% { transform: rotate(0deg); }
+        15% { transform: rotate(-40deg); }
+        19% { transform: rotate(100deg); }
+        25%, 100% { transform: rotate(0deg); }
+      }
+      @keyframes squish {
+        0%, 18% { transform: scale(1, 1); }
+        19% { transform: scale(1.5, 0.3) translateY(120px); }
+        25%, 100% { transform: scale(1, 1); }
+      }
+      @keyframes shockwave {
+        0%, 18% { r: 0; opacity: 1; stroke-width: 10; }
+        19% { r: 50; opacity: 1; stroke-width: 30; }
+        25%, 100% { r: 250; opacity: 0; stroke-width: 0; }
+      }
+      @keyframes pow {
+        0%, 18% { opacity: 0; transform: scale(0.1) rotate(-20deg); }
+        19% { opacity: 1; transform: scale(1.8) rotate(10deg); }
+        28%, 100% { opacity: 0; transform: scale(2.2) rotate(20deg); }
+      }
+      @keyframes speedlines {
+        0%, 17% { opacity: 0; }
+        18%, 19% { opacity: 1; }
+        20%, 100% { opacity: 0; }
+      }
+      @keyframes spark1 { 0%, 18% { transform: translate(0,0) scale(1); opacity:0; } 19% { opacity:1; } 25%,100% { transform: translate(-150px,-100px) scale(0); opacity:0; } }
+      @keyframes spark2 { 0%, 18% { transform: translate(0,0) scale(1); opacity:0; } 19% { opacity:1; } 25%,100% { transform: translate(150px,-150px) scale(0); opacity:0; } }
+      @keyframes spark3 { 0%, 18% { transform: translate(0,0) scale(1); opacity:0; } 19% { opacity:1; } 25%,100% { transform: translate(50px,-200px) scale(0); opacity:0; } }
+
+      .arm { transform-origin: 20px 70px; animation: hit 2.5s infinite cubic-bezier(0.25, 1, 0.5, 1); }
+      .pony-group { transform-origin: 450px 320px; animation: squish 2.5s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+      .scene { animation: shake 2.5s infinite; transform-origin: 400px 200px; }
+      .shock { fill: none; stroke: white; transform-origin: 450px 160px; animation: shockwave 2.5s infinite; }
+      .pow-group { transform-origin: 450px 160px; animation: pow 2.5s infinite; }
+      .lines { animation: speedlines 2.5s infinite; stroke: white; stroke-width: 6; stroke-linecap: round; filter: url(#glow); }
+    </style>
+  </defs>
+
+  <g class="scene">
+    <!-- Sky & Sun -->
+    <rect width="800" height="400" fill="url(#skyGrad)" />
+    <circle cx="400" cy="200" r="150" fill="url(#sunGrad)" style="animation: sun-pulse 4s infinite alternate;" />
+    
+    <!-- Parallax Mountains Background -->
+    <path d="M 0 250 L 150 100 L 300 250 L 450 80 L 600 250 L 750 120 L 800 250 L 800 400 L 0 400 Z" fill="#023e8a" opacity="0.6"/>
+    <path d="M -50 280 L 100 150 L 250 280 L 400 130 L 550 280 L 700 160 L 850 280 L 850 400 L -50 400 Z" fill="#0077b6" opacity="0.8"/>
+    
+    <!-- Clouds -->
+    <path d="M 200 80 Q 220 50 250 80 Q 280 60 300 90 Q 320 80 330 100 L 180 100 Q 180 80 200 80 Z" fill="white" opacity="0.5" style="animation: cloud1 30s linear infinite;"/>
+    <path d="M 500 120 Q 520 90 550 120 Q 580 100 600 130 Q 620 120 630 140 L 480 140 Q 480 120 500 120 Z" fill="white" opacity="0.4" style="animation: cloud2 40s linear infinite;"/>
+
+    <!-- Grass/Foreground -->
+    <path d="M 0 280 Q 400 240 800 280 L 800 400 L 0 400 Z" fill="url(#grassGrad)" />
+    
+    <!-- Shadows under characters -->
+    <ellipse cx="320" cy="330" rx="40" ry="10" fill="black" opacity="0.4" filter="blur(4px)" />
+    <ellipse cx="480" cy="330" rx="60" ry="15" fill="black" opacity="0.4" filter="blur(4px)" />
+
+    <!-- THE PONY (Highly Detailed) -->
+    <g class="pony-group" filter="url(#shadow)">
+      <!-- Legs Back -->
+      <rect x="440" y="270" width="16" height="50" fill="#a01a3a" rx="8" />
+      <rect x="500" y="270" width="16" height="50" fill="#a01a3a" rx="8" />
+      <!-- Body -->
+      <rect x="420" y="220" width="120" height="60" fill="url(#ponyGrad)" rx="30" />
+      <!-- Legs Front -->
+      <rect x="460" y="270" width="16" height="60" fill="#ff4d6d" rx="8" />
+      <rect x="520" y="270" width="16" height="60" fill="#ff4d6d" rx="8" />
+      <!-- Tail -->
+      <path d="M 530 240 C 580 210, 590 280, 560 300 C 540 310, 540 280, 535 260 Z" fill="#590d22" />
+      <path d="M 525 235 C 560 215, 570 260, 550 280 C 530 290, 530 270, 530 250 Z" fill="#800f2f" />
+      <!-- Neck & Head -->
+      <path d="M 430 250 L 400 160 L 460 160 Z" fill="url(#ponyGrad)" />
+      <ellipse cx="420" cy="150" rx="35" ry="30" fill="#ff4d6d" />
+      <!-- Snout -->
+      <ellipse cx="390" cy="160" rx="20" ry="15" fill="#ffb3c6" />
+      <circle cx="380" cy="155" r="3" fill="#c9184a" />
+      <!-- Eye -->
+      <ellipse cx="415" cy="140" rx="8" ry="12" fill="white" />
+      <ellipse cx="412" cy="140" rx="5" ry="8" fill="#023e8a" />
+      <circle cx="410" cy="135" r="2" fill="white" />
+      <!-- Mane -->
+      <path d="M 420 110 C 460 90, 480 150, 460 180 C 490 200, 460 240, 440 240 C 450 200, 420 180, 420 110 Z" fill="#590d22" />
+      <path d="M 410 115 C 440 100, 460 140, 445 170 C 465 180, 445 210, 435 210 C 440 180, 415 160, 410 115 Z" fill="#800f2f" />
+      <!-- Ear -->
+      <path d="M 435 125 L 455 100 L 465 130 Z" fill="#ff4d6d" stroke="#c9184a" stroke-width="2" />
+    </g>
+
+    <!-- Impact Shockwave -->
+    <circle cx="420" cy="150" class="shock" />
+
+    <!-- Speed Lines for Hammer Swing -->
+    <g class="lines">
+      <line x1="420" y1="20" x2="440" y2="100" />
+      <line x1="380" y1="5" x2="450" y2="80" />
+      <line x1="480" y1="40" x2="470" y2="120" />
+    </g>
+
+    <!-- THE SKULL CHARACTER (Highly Detailed Reaper) -->
+    <g transform="translate(280, 110)" filter="url(#shadow)">
+      <!-- Cloak Detailed -->
+      <path d="M 0 60 C -30 120, -40 220, -10 220 C 20 220, 10 180, 30 220 C 50 220, 40 180, 60 220 C 90 220, 80 120, 50 60 Z" fill="#111" />
+      <path d="M 10 70 C -10 120, -20 200, 0 200 C 15 200, 15 170, 25 190 C 35 190, 30 160, 40 190 C 60 190, 50 120, 30 70 Z" fill="#222" />
+      
+      <!-- Skull Base -->
+      <path d="M -15 20 C -20 -20, 70 -20, 65 20 C 65 45, 45 60, 35 70 C 35 80, 15 80, 15 70 C 5 60, -15 45, -15 20 Z" fill="#f8f9fa" />
+      <path d="M -10 20 C -10 -5, 60 -5, 60 20 C 60 35, 45 45, 35 55 C 35 60, 15 60, 15 55 C 5 45, -10 35, -10 20 Z" fill="#e9ecef" />
+      
+      <!-- Angry Eye Sockets -->
+      <path d="M -5 15 L 15 25 L 5 40 Z" fill="#000" />
+      <path d="M 55 15 L 35 25 L 45 40 Z" fill="#000" />
+      
+      <!-- Glowing Red Eyes -->
+      <circle cx="5" cy="28" r="4" fill="#ff0000" filter="url(#glow)" />
+      <circle cx="45" cy="28" r="4" fill="#ff0000" filter="url(#glow)" />
+      
+      <!-- Nose Cavity -->
+      <path d="M 25 45 L 30 55 L 20 55 Z" fill="#000" />
+      
+      <!-- Teeth Detail -->
+      <path d="M 10 65 L 10 75 M 20 65 L 20 75 M 30 65 L 30 75 M 40 65 L 40 75" stroke="#000" stroke-width="2" />
+      
+      <!-- Arm & Hammer Group -->
+      <g class="arm">
+        <!-- Sleeve -->
+        <path d="M 10 60 C -10 90, -40 120, -20 130 C -10 135, 20 110, 30 90 Z" fill="#222" />
+        <!-- Hand -->
+        <circle cx="-25" cy="130" r="8" fill="#f8f9fa" />
+        <!-- Hammer Handle -->
+        <path d="M -25 130 L 100 -20 L 110 -10 L -15 140 Z" fill="#7f4f24" />
+        <path d="M -20 130 L 95 -10 L 100 -5 L -15 135 Z" fill="#936639" />
+        <!-- Hammer Head -->
+        <g transform="translate(100, -20) rotate(45)">
+          <rect x="-40" y="-25" width="80" height="50" fill="url(#metalGrad)" rx="8" />
+          <rect x="-45" y="-15" width="10" height="30" fill="#343a40" rx="3" />
+          <rect x="35" y="-15" width="10" height="30" fill="#343a40" rx="3" />
+          <!-- Shine on hammer -->
+          <rect x="-35" y="-20" width="70" height="5" fill="white" opacity="0.4" />
+        </g>
+      </g>
+    </g>
+
+    <!-- Explosion / POW Graphic -->
+    <g class="pow-group" transform="translate(420, 150)">
+      <!-- Starburst -->
+      <path d="M 0 -80 L 15 -30 L 70 -40 L 30 -5 L 80 30 L 25 20 L 10 70 L -10 25 L -70 40 L -25 10 L -80 -20 L -20 -15 Z" fill="#ffb703" stroke="#e63946" stroke-width="8" stroke-linejoin="round" />
+      <path d="M 0 -60 L 10 -20 L 50 -30 L 20 0 L 60 20 L 15 15 L 5 50 L -5 15 L -50 30 L -15 5 L -60 -15 L -10 -10 Z" fill="#fb8500" />
+      <text x="0" y="15" font-family="'Impact', sans-serif" font-size="45" font-weight="bold" fill="#e63946" stroke="white" stroke-width="2" text-anchor="middle">BAM!</text>
+      
+      <!-- Flying Sparks -->
+      <circle cx="0" cy="0" r="10" fill="#ffb703" style="animation: spark1 2.5s infinite;" filter="url(#glow)" />
+      <circle cx="0" cy="0" r="8" fill="#e63946" style="animation: spark2 2.5s infinite;" filter="url(#glow)" />
+      <circle cx="0" cy="0" r="12" fill="white" style="animation: spark3 2.5s infinite;" filter="url(#glow)" />
+    </g>
+  </g>
+  
+  <text x="780" y="380" font-family="'Courier New', monospace" font-size="20" font-weight="bold" fill="white" text-anchor="end" filter="url(#shadow)">[ LEVEL: OVERKILL ]</text>
+</svg>

@@ -2,6 +2,10 @@
 
 Welcome to my GitHub profile! I'm a developer passionate about building useful applications and exploring new technologies.
 
+<div align="center">
+  <img src="developer-animation.svg" alt="Developer Animation" width="100%" />
+</div>
+
 ## 🚀 About Me
 
 - 🔭 I’m currently working on various web and mobile application projects.
