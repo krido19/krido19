@@ -48,7 +48,7 @@ let textElements = textData.map(item => {
   }
 }).join('\n');
 
-const svg = `<svg width="950" height="550" viewBox="0 0 950 550" fill="none" xmlns="http://www.w3.org/2000/svg">
+const svg = `<svg width="950" height="650" viewBox="0 0 950 650" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     /* GitHub camo proxy might strip fonts, so we use safe fallbacks */
     .section-title { font-family: 'Outfit', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 800; fill: #1E293B; letter-spacing: 1px; }
@@ -58,16 +58,16 @@ const svg = `<svg width="950" height="550" viewBox="0 0 950 550" fill="none" xml
   </style>
 
   <!-- Card Shadow -->
-  <rect x="16" y="16" width="918" height="518" rx="24" fill="#1E293B" />
+  <rect x="16" y="16" width="918" height="618" rx="24" fill="#1E293B" />
   
   <!-- Main Card -->
-  <rect x="8" y="8" width="918" height="518" rx="24" fill="#FFFDF5" stroke="#1E293B" stroke-width="4" />
+  <rect x="8" y="8" width="918" height="618" rx="24" fill="#FFFDF5" stroke="#1E293B" stroke-width="4" />
   
   <!-- Memphis Decor: Dots Grid Background Pattern -->
   <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
     <circle cx="2" cy="2" r="2" fill="#CBD5E1" opacity="0.5" />
   </pattern>
-  <rect x="10" y="10" width="914" height="514" rx="22" fill="url(#dots)" />
+  <rect x="10" y="10" width="914" height="614" rx="22" fill="url(#dots)" />
 
   <!-- Memphis Decor: Floating Shapes -->
   <circle cx="850" cy="80" r="18" fill="#F472B6" stroke="#1E293B" stroke-width="3" />
@@ -80,19 +80,19 @@ const svg = `<svg width="950" height="550" viewBox="0 0 950 550" fill="none" xml
   <path d="M 450 480 L 480 510 M 480 480 L 450 510" stroke="#F472B6" stroke-width="4" stroke-linecap="round" />
 
   <!-- Avatar Area (Left Side) -->
-  <rect x="44" y="129" width="300" height="300" rx="150" fill="#1E293B" />
+  <rect x="44" y="164" width="300" height="300" rx="150" fill="#1E293B" />
   <clipPath id="imgClip">
-    <rect x="40" y="125" width="300" height="300" rx="150" />
+    <rect x="40" y="160" width="300" height="300" rx="150" />
   </clipPath>
   <!-- Background circle in case image is transparent -->
-  <rect x="40" y="125" width="300" height="300" rx="150" fill="#FBBF24" stroke="#1E293B" stroke-width="4" />
-  <image href="${imgSrc}" x="40" y="125" width="300" height="300" clip-path="url(#imgClip)" />
-  <rect x="40" y="125" width="300" height="300" rx="150" fill="none" stroke="#1E293B" stroke-width="4" />
+  <rect x="40" y="160" width="300" height="300" rx="150" fill="#FBBF24" stroke="#1E293B" stroke-width="4" />
+  <image href="${imgSrc}" x="40" y="160" width="300" height="300" clip-path="url(#imgClip)" />
+  <rect x="40" y="160" width="300" height="300" rx="150" fill="none" stroke="#1E293B" stroke-width="4" />
 
   <!-- Avatar Badge (The 'Hello' Sticker) -->
-  <rect x="233" y="373" width="90" height="40" rx="20" fill="#1E293B" transform="rotate(-10 275 390)" />
-  <rect x="230" y="370" width="90" height="40" rx="20" fill="#8B5CF6" stroke="#1E293B" stroke-width="3" transform="rotate(-10 275 390)" />
-  <text x="275" y="396" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle" transform="rotate(-10 275 390)">HI THERE!</text>
+  <rect x="233" y="408" width="90" height="40" rx="20" fill="#1E293B" transform="rotate(-10 275 425)" />
+  <rect x="230" y="405" width="90" height="40" rx="20" fill="#8B5CF6" stroke="#1E293B" stroke-width="3" transform="rotate(-10 275 425)" />
+  <text x="275" y="431" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle" transform="rotate(-10 275 425)">HI THERE!</text>
 
   <!-- Dynamic Text Data -->
 ${textElements}

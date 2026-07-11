@@ -12,12 +12,9 @@
 </div>
 
 <div align="center">
-  <img src="profile.svg?v=2" alt="Krido's Profile Card" width="100%" />
+  <img src="profile.svg?v=3" alt="Krido's Profile Card" width="100%" />
 </div>
 
-<div align="center">
-  <img src="developer-animation.svg?v=2" alt="Developer Animation" width="100%" />
-</div>
 
 ## 🚀 About Me
 
@@ -85,3 +82,9 @@
 <a href="https://github.com/krido19" target="blank"><img align="center" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="30" /></a>
 <a href="https://nineteen-dev.vercel.app/blog" target="blank"><img align="center" src="https://img.shields.io/badge/Read_My_Blog-000000?style=for-the-badge&logo=dev.to&logoColor=white" alt="my-blog" height="30" /></a>
 </p>
+
+<br/>
+
+<div align="center">
+  <img src="developer-animation.svg?v=2" alt="Developer Animation" width="100%" />
+</div>
