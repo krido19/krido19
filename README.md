@@ -12,11 +12,11 @@
 </div>
 
 <div align="center">
-  <img src="profile.svg?v=3" alt="Krido's Profile Card" width="100%" />
+  <img src="profile.svg?v=4" alt="Krido's Profile Card" width="100%" />
 </div>
 
 
-## 🚀 About Me
+<img src="https://readme-typing-svg.herokuapp.com?font=Outfit&weight=800&size=24&pause=1000&color=F472B6&center=false&vCenter=true&width=300&lines=🚀+About+Me" alt="About Me" />
 
 - 🔭 I’m currently building **[Nineteen Dev](https://nineteen-dev.vercel.app)**, a Professional Web & Mobile Development Studio.
 - 📝 I regularly write articles and dev logs on my **[Blog](https://nineteen-dev.vercel.app/blog)**.
@@ -24,7 +24,8 @@
 - 👯 I’m looking to collaborate on open-source projects.
 - 💬 Ask me about **React, JavaScript, and Web/Mobile Development**.
 
-## 🛠️ Languages and Tools
+<br/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Outfit&weight=800&size=24&pause=1000&color=34D399&center=false&vCenter=true&width=400&lines=🛠️+Languages+and+Tools" alt="Languages and Tools" />
 
 <p align="left">
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
@@ -50,19 +51,22 @@
   </a>
 </p>
 
-## 🐍 Contribution Snake
+<br/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Outfit&weight=800&size=24&pause=1000&color=FBBF24&center=false&vCenter=true&width=400&lines=🐍+Contribution+Snake" alt="Contribution Snake" />
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/krido19/krido19/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </div>
 
-## 🧊 3D Contribution Graph
+<br/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Outfit&weight=800&size=24&pause=1000&color=8B5CF6&center=false&vCenter=true&width=400&lines=🧊+3D+Contribution+Graph" alt="3D Contribution Graph" />
 
 <div align="center">
   <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" />
 </div>
 
-## 📊 GitHub Stats
+<br/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Outfit&weight=800&size=24&pause=1000&color=F472B6&center=false&vCenter=true&width=400&lines=📊+GitHub+Stats" alt="GitHub Stats" />
 
 <div align="center">
 
@@ -74,7 +78,8 @@
 
 </div>
 
-## 🔗 Connect with Me
+<br/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Outfit&weight=800&size=24&pause=1000&color=8B5CF6&center=false&vCenter=true&width=400&lines=🔗+Connect+with+Me" alt="Connect with Me" />
 
 <p align="left">
 <a href="mailto:hello@nineteen.dev" target="blank"><img align="center" src="https://img.shields.io/badge/hello@nineteen.dev-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" height="30" /></a>
