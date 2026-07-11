@@ -24,7 +24,7 @@ const lines = [
   [{c: 'dots', t: '. '}, {c: 'key', t: 'Email:'}, {c: 'dots', t: ' ......................... '}, {c: 'value', t: 'brokariim@gmail.com'}],
   [{c: 'dots', t: '. '}, {c: 'key', t: 'GitHub:'}, {c: 'dots', t: ' ........................ '}, {c: 'value', t: '@krido19'}],
   [{c: 'dots', t: '. '}, {c: 'key', t: 'LinkedIn:'}, {c: 'dots', t: ' ...................... '}, {c: 'value', t: 'in/kridobahtiar'}],
-  [{c: 'dots', t: '. '}, {c: 'key', t: 'X:'}, {c: 'dots', t: ' ............................. '}, {c: 'value', t: '@krido19'}],
+  [{c: 'dots', t: '. '}, {c: 'key', t: 'Blog:'}, {c: 'dots', t: ' .......................... '}, {c: 'value', t: 'nineteen-dev.vercel.app/blog'}],
   [{c: 'title', t: ''}],
   [{c: 'title', t: '- GitHub Stats ---------------------------------------'}],
   [{c: 'dots', t: '. '}, {c: 'key', t: 'Repos:'}, {c: 'value', t: ' .... -- '}, {c: 'title', t: '| '}, {c: 'key', t: 'Stars:'}, {c: 'dots', t: ' ......................... '}, {c: 'value', t: '--'}],

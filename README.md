@@ -1,6 +1,12 @@
 # Hi there, I'm Krido Bahtiar! 👋
 
-Welcome to my GitHub profile! I'm a developer passionate about building useful applications and exploring new technologies.
+<a href="https://github.com/krido19">
+  <img src="https://komarev.com/ghpvc/?username=krido19&style=flat-square&color=blue" alt="krido19" />
+</a>
+
+<a href="https://github.com/krido19">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=3B82F6&center=false&vCenter=true&width=500&lines=Full+Stack+Web+%26+Mobile+Developer;Founder+of+Nineteen+Dev;Always+learning+new+technologies" alt="Typing SVG" />
+</a>
 
 <div align="center">
   <img src="profile.svg" alt="Krido's Profile Card" width="100%" />
@@ -12,11 +18,11 @@ Welcome to my GitHub profile! I'm a developer passionate about building useful a
 
 ## 🚀 About Me
 
-- 🔭 I’m currently working on various web and mobile application projects.
+- 🔭 I’m currently building **[Nineteen Dev](https://nineteen-dev.vercel.app)**, a Professional Web & Mobile Development Studio.
+- 📝 I regularly write articles and dev logs on my **[Blog](https://nineteen-dev.vercel.app/blog)**.
 - 🌱 I’m currently learning **Advanced React Patterns** and **Supabase**.
 - 👯 I’m looking to collaborate on open-source projects.
-- 💬 Ask me about **React, JavaScript, and Web Development**.
-- 📫 How to reach me: [Insert Your Email Here]
+- 💬 Ask me about **React, JavaScript, and Web/Mobile Development**.
 
 ## 🛠️ Languages and Tools
 
@@ -64,15 +70,15 @@ Welcome to my GitHub profile! I'm a developer passionate about building useful a
 
 [![Trophies](https://github-profile-trophy.vercel.app/?username=krido19&theme=radical&no-frame=true&no-bg=true&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
 
-<!-- Note: Top Langs is currently commented out as the service is experiencing downtime. You can uncomment it later when it's back up. -->
-<!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=krido19&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats) -->
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=krido19&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
 </div>
 
 ## 🔗 Connect with Me
 
 <p align="left">
-<!-- REPLACE WITH YOUR ACTUAL LINKS -->
-<a href="https://linkedin.com/in/your-linkedin-username" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="your-linkedin" height="30" width="40" /></a>
-<a href="https://twitter.com/your-twitter-handle" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="your-twitter" height="30" width="40" /></a>
+<a href="mailto:hello@nineteen.dev" target="blank"><img align="center" src="https://img.shields.io/badge/hello@nineteen.dev-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" height="30" /></a>
+<a href="https://linkedin.com/in/kridodev" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="30" /></a>
+<a href="https://github.com/krido19" target="blank"><img align="center" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="30" /></a>
+<a href="https://nineteen-dev.vercel.app/blog" target="blank"><img align="center" src="https://img.shields.io/badge/Read_My_Blog-000000?style=for-the-badge&logo=dev.to&logoColor=white" alt="my-blog" height="30" /></a>
 </p>
