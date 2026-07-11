@@ -2,33 +2,9 @@
 
 Welcome to my GitHub profile! I'm a developer passionate about building useful applications and exploring new technologies.
 
-```text
-krido19@github ---------------------------------------
-. OS: ............................ Windows, macOS, shell
-. Uptime: ........................ 24/7 (Always Learning)
-. Expertise: ..................... Web & Mobile Development
-. Project: ....................... Nineteen Dev
-. IDE: ........................... VS Code
-.
-. Languages.Programming: ......... JavaScript, Node.js, SQL
-. Languages.Computer: ............ HTML, CSS, JSON, Markdown
-. Languages.Real: ................ Indonesian, English
-.
-. Quote:
-  Keep away from people who try to belittle your ambitions.
-  ~ Mark Twain
-
-- Contact --------------------------------------------
-. Email: ......................... [Insert Your Email]
-. GitHub: ........................ @krido19
-. LinkedIn: ...................... [Insert Your LinkedIn]
-. X: ............................. [Insert Your X/Twitter]
-
-- GitHub Stats ---------------------------------------
-. Repos: .... -- | Stars: ......................... --
-. Commits: ....................... ---- | Followers: ......... --
-. Languages: ..................... JavaScript, HTML, CSS
-```
+<div align="center">
+  <img src="profile.svg" alt="Krido's Profile Card" width="100%" />
+</div>
 
 <div align="center">
   <img src="developer-animation.svg" alt="Developer Animation" width="100%" />
