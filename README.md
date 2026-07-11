@@ -2,12 +2,12 @@
 
 <div align="center">
   <a href="https://github.com/krido19">
-    <img src="https://komarev.com/ghpvc/?username=krido19&style=flat-square&color=blue" alt="krido19" />
+    <img src="https://komarev.com/ghpvc/?username=krido19&style=flat-square&color=8B5CF6" alt="krido19" />
   </a>
   <br/>
   <br/>
   <a href="https://github.com/krido19">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Full+Stack+Web+%26+Mobile+Developer;Founder+of+Nineteen+Dev;Always+learning+new+technologies" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Outfit&weight=800&size=20&pause=1000&color=F472B6&center=true&vCenter=true&width=600&lines=Full+Stack+Web+%26+Mobile+Developer;Founder+of+Nineteen+Dev;Always+learning+new+technologies" alt="Typing SVG" />
   </a>
 </div>
 
@@ -69,11 +69,11 @@
 
 <div align="center">
 
-[![Krido's GitHub Streak](https://streak-stats.demolab.com?user=krido19&theme=radical)](https://git.io/streak-stats)
+[![Krido's GitHub Streak](https://streak-stats.demolab.com?user=krido19&theme=flat&background=FFFDF5&border=1E293B&stroke=1E293B&ring=8B5CF6&fire=F472B6&currStreakNum=1E293B&currStreakLabel=64748B&sideNums=1E293B&sideLabels=64748B&dates=64748B)](https://git.io/streak-stats)
 
-[![Trophies](https://github-profile-trophy.vercel.app/?username=krido19&theme=radical&no-frame=true&no-bg=true&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
+[![Trophies](https://github-profile-trophy.vercel.app/?username=krido19&theme=flat&bg_color=FFFDF5&title_color=1E293B&text_color=64748B&icon_color=8B5CF6&border_color=1E293B&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=krido19&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=krido19&layout=compact&theme=flat&bg_color=FFFDF5&title_color=1E293B&text_color=64748B&icon_color=F472B6&border_color=1E293B)](https://github.com/anuraghazra/github-readme-stats)
 
 </div>
 

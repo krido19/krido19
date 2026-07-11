@@ -2,22 +2,22 @@
   <defs>
     <!-- Gradients -->
     <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#001d3d"/>
-      <stop offset="50%" stop-color="#0077b6"/>
-      <stop offset="100%" stop-color="#90e0ef"/>
+      <stop offset="0%" stop-color="#FFFDF5"/>
+      <stop offset="50%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
     </linearGradient>
     <linearGradient id="grassGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#2d6a4f"/>
-      <stop offset="100%" stop-color="#1b4332"/>
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#059669"/>
     </linearGradient>
     <radialGradient id="sunGrad" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#ffb703"/>
-      <stop offset="50%" stop-color="#fb8500"/>
-      <stop offset="100%" stop-color="#fb8500" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#FBBF24"/>
+      <stop offset="50%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#D97706" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="ponyGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#ff99c8"/>
-      <stop offset="100%" stop-color="#c9184a"/>
+      <stop offset="0%" stop-color="#F472B6"/>
+      <stop offset="100%" stop-color="#BE185D"/>
     </linearGradient>
     <linearGradient id="metalGrad" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#e5e5e5"/>
@@ -95,8 +95,8 @@
     <circle cx="400" cy="200" r="150" fill="url(#sunGrad)" style="animation: sun-pulse 4s infinite alternate;" />
     
     <!-- Parallax Mountains Background -->
-    <path d="M 0 250 L 150 100 L 300 250 L 450 80 L 600 250 L 750 120 L 800 250 L 800 400 L 0 400 Z" fill="#023e8a" opacity="0.6"/>
-    <path d="M -50 280 L 100 150 L 250 280 L 400 130 L 550 280 L 700 160 L 850 280 L 850 400 L -50 400 Z" fill="#0077b6" opacity="0.8"/>
+    <path d="M 0 250 L 150 100 L 300 250 L 450 80 L 600 250 L 750 120 L 800 250 L 800 400 L 0 400 Z" fill="#8B5CF6" opacity="0.6"/>
+    <path d="M -50 280 L 100 150 L 250 280 L 400 130 L 550 280 L 700 160 L 850 280 L 850 400 L -50 400 Z" fill="#C084FC" opacity="0.8"/>
     
     <!-- Clouds -->
     <path d="M 200 80 Q 220 50 250 80 Q 280 60 300 90 Q 320 80 330 100 L 180 100 Q 180 80 200 80 Z" fill="white" opacity="0.5" style="animation: cloud1 30s linear infinite;"/>
@@ -196,16 +196,16 @@
     <!-- Explosion / POW Graphic -->
     <g class="pow-group" transform="translate(420, 150)">
       <!-- Starburst -->
-      <path d="M 0 -80 L 15 -30 L 70 -40 L 30 -5 L 80 30 L 25 20 L 10 70 L -10 25 L -70 40 L -25 10 L -80 -20 L -20 -15 Z" fill="#ffb703" stroke="#e63946" stroke-width="8" stroke-linejoin="round" />
-      <path d="M 0 -60 L 10 -20 L 50 -30 L 20 0 L 60 20 L 15 15 L 5 50 L -5 15 L -50 30 L -15 5 L -60 -15 L -10 -10 Z" fill="#fb8500" />
+      <path d="M 0 -80 L 15 -30 L 70 -40 L 30 -5 L 80 30 L 25 20 L 10 70 L -10 25 L -70 40 L -25 10 L -80 -20 L -20 -15 Z" fill="#FBBF24" stroke="#e63946" stroke-width="8" stroke-linejoin="round" />
+      <path d="M 0 -60 L 10 -20 L 50 -30 L 20 0 L 60 20 L 15 15 L 5 50 L -5 15 L -50 30 L -15 5 L -60 -15 L -10 -10 Z" fill="#D97706" />
       <text x="0" y="15" font-family="'Impact', sans-serif" font-size="45" font-weight="bold" fill="#e63946" stroke="white" stroke-width="2" text-anchor="middle">BAM!</text>
       
       <!-- Flying Sparks -->
-      <circle cx="0" cy="0" r="10" fill="#ffb703" style="animation: spark1 2.5s infinite;" filter="url(#glow)" />
+      <circle cx="0" cy="0" r="10" fill="#FBBF24" style="animation: spark1 2.5s infinite;" filter="url(#glow)" />
       <circle cx="0" cy="0" r="8" fill="#e63946" style="animation: spark2 2.5s infinite;" filter="url(#glow)" />
       <circle cx="0" cy="0" r="12" fill="white" style="animation: spark3 2.5s infinite;" filter="url(#glow)" />
     </g>
   </g>
   
-  <text x="780" y="380" font-family="'Courier New', monospace" font-size="20" font-weight="bold" fill="white" text-anchor="end" filter="url(#shadow)">[ LEVEL: OVERKILL ]</text>
+  <text x="780" y="380" font-family="'Courier New', monospace" font-size="20" font-weight="bold" fill="#1E293B" text-anchor="end" filter="url(#shadow)">[ LEVEL: OVERKILL ]</text>
 </svg>
