@@ -28,6 +28,8 @@
 
 ### 📰 Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [DevLog: Menjaga Database Tetap Hidup 24/7 dengan GitHub Actions Cron Jobs](https://nineteen-dev.vercel.app/blog/devlog-menjaga-database-tetap-hidup-24-7-dengan-github-actions-cron-jobs)
+- [DevLog : 5 Alasan Kenapa Bisnis Anda Wajib Punya Website Custom di Tahun 2024](https://nineteen-dev.vercel.app/blog/5-alasan-kenapa-bisnis-anda-wajib-punya-website-custom-di-tahun-2024)
 <!-- BLOG-POST-LIST:END -->
 
 <br/>
