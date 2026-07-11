@@ -5,7 +5,7 @@ const imgSrc = `data:image/png;base64,${base64Img}`;
 
 const textData = [
   { section: 'ABOUT ME', color: '#FBBF24' },
-  { k: 'Developer', v: 'Full Stack Web & Mobile' },
+  { k: 'Developer', v: 'Full Stack Web &amp; Mobile' },
   { k: 'Project', v: 'Founder of Nineteen Dev' },
   { k: 'Uptime', v: '24/7 (Always Learning)' },
   { k: 'IDE', v: 'VS Code' },

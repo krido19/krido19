@@ -1,12 +1,15 @@
 # Hi there, I'm Krido Bahtiar! 👋
 
-<a href="https://github.com/krido19">
-  <img src="https://komarev.com/ghpvc/?username=krido19&style=flat-square&color=blue" alt="krido19" />
-</a>
-
-<a href="https://github.com/krido19">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=3B82F6&center=false&vCenter=true&width=500&lines=Full+Stack+Web+%26+Mobile+Developer;Founder+of+Nineteen+Dev;Always+learning+new+technologies" alt="Typing SVG" />
-</a>
+<div align="center">
+  <a href="https://github.com/krido19">
+    <img src="https://komarev.com/ghpvc/?username=krido19&style=flat-square&color=blue" alt="krido19" />
+  </a>
+  <br/>
+  <br/>
+  <a href="https://github.com/krido19">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Full+Stack+Web+%26+Mobile+Developer;Founder+of+Nineteen+Dev;Always+learning+new+technologies" alt="Typing SVG" />
+  </a>
+</div>
 
 <div align="center">
   <img src="profile.svg" alt="Krido's Profile Card" width="100%" />
