@@ -7,16 +7,16 @@
   <br/>
   <br/>
   <a href="https://github.com/krido19">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Outfit&weight=800&size=20&pause=1000&color=F472B6&center=true&vCenter=true&width=600&lines=Full+Stack+Web+%26+Mobile+Developer;Founder+of+Nineteen+Dev;Always+learning+new+technologies" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Outfit&weight=800&size=20&pause=1000&color=F472B6&center=true&vCenter=true&width=600&lines=Full+Stack+Web+and+Mobile+Developer;Founder+of+Nineteen+Dev;Always+learning+new+technologies" alt="Typing SVG" />
   </a>
 </div>
 
 <div align="center">
-  <img src="profile.svg" alt="Krido's Profile Card" width="100%" />
+  <img src="profile.svg?v=2" alt="Krido's Profile Card" width="100%" />
 </div>
 
 <div align="center">
-  <img src="developer-animation.svg" alt="Developer Animation" width="100%" />
+  <img src="developer-animation.svg?v=2" alt="Developer Animation" width="100%" />
 </div>
 
 ## 🚀 About Me
