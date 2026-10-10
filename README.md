@@ -28,6 +28,8 @@
 
 ### 📰 Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [Studi Kasus: Mengapa Custom Architecture Mengungguli Template Instan Saat Skala Bisnis Meningkat](https://www.nineteendev.xyz/blog/studi-kasus-custom-architecture-vs-template-instan)
+- [Arsitektur Multi-Tier PWA: Solusi Offline Caching dan Push Notification untuk Retail Modern](https://www.nineteendev.xyz/blog/arsitektur-multi-tier-pwa-offline-caching-retail-modern)
 - [DevLog: Menjaga Database Tetap Hidup 24/7 dengan GitHub Actions Cron Jobs](https://www.nineteendev.xyz/blog/devlog-menjaga-database-tetap-hidup-24-7-dengan-github-actions-cron-jobs)
 - [DevLog : 5 Alasan Kenapa Bisnis Anda Wajib Punya Website Custom di Tahun 2024](https://www.nineteendev.xyz/blog/5-alasan-kenapa-bisnis-anda-wajib-punya-website-custom-di-tahun-2024)
 <!-- BLOG-POST-LIST:END -->
